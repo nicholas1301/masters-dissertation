@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dissertation.aux
+The style file: unsrt.bst
+Database file #1: referencias.bib
+Warning--I'm ignoring lee_young_2004's extra "pages" field
+--line 184 of file referencias.bib
+Warning--empty journal in petreca_2021
+You've used 66 entries,
+            1791 wiz_defined-function locations,
+            827 strings with 12385 characters,
+and the built_in function-call counts, 14598 in all, are:
+= -- 1247
+> -- 567
+< -- 0
++ -- 217
+- -- 151
+* -- 1135
+:= -- 2359
+add.period$ -- 198
+call.type$ -- 66
+change.case$ -- 59
+chr.to.int$ -- 0
+cite$ -- 67
+duplicate$ -- 600
+empty$ -- 1531
+format.name$ -- 151
+if$ -- 3199
+int.to.chr$ -- 0
+int.to.str$ -- 66
+missing$ -- 73
+newline$ -- 333
+num.names$ -- 66
+pop$ -- 112
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 216
+stack$ -- 0
+substring$ -- 1205
+swap$ -- 65
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 126
+width$ -- 68
+write$ -- 719
+(There were 2 warnings)

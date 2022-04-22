@@ -1,0 +1,37 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+1. Introdução
+
+
+2. Preliminares de Mecânica Quântica
+-2.1. Postulados
+--2.1.1. Matrizes Densidade
+--2.1.2. Descrição de uma partícula com spin;
+
+-2.2. Informação Quântica
+--2.2.1. Entropias
+--2.2.2. Correlações quânticas
+
+-2.3. Realismo
+--2.3.1. Realismo de EPR
+--2.3.2. Realismo de BA
+
+
+3. Preliminares de Relatividade especial
+-3.1. O Grupo de Lorentz Restrito
+-3.2. Rotação de Thomas-Wigner
+-3.3. Mecânica Quântica relativística
+--3.3.1. Autoestados do quadrimomento
+--3.3.2. Concha de massa
+--3.3.3. Transformação dos estados sob boosts e rotações
+
+
+4. Emaranhamento induzido por boosts
+-4.1. Transformação de um estado genérico sob boosts e rotações
+-4.2. Superposição de dois momenta opostos
+-4.3. Interferômetro de Mach-Zehnder
+
+
+5. Conclusões

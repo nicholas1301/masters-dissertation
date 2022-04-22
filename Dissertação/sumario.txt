@@ -1,0 +1,11 @@
+CAPÍTULO: Preliminares de Mecânica Quântica
+
+-Formalismo quântico
+-Graus de liberdade contínuos: posição e momentum
+-Matrizes Densidade
+--Entropias
+-Sistemas compostos
+--Emaranhamento
+-Realismo
+--Realismo de BA
+-Exemplo: dinâmica e medição de spin

@@ -1,0 +1,38 @@
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\contentsline {chapter}{\numberline {2}Quantum mechanical preliminaries}{5}%
+\contentsline {section}{\numberline {2.1}The basic quantum formalism}{5}%
+\contentsline {section}{\numberline {2.2}Continuous degrees of freedom: position and momentum}{6}%
+\contentsline {section}{\numberline {2.3}Density Matrices}{8}%
+\contentsline {subsection}{\numberline {2.3.1}Entropies}{9}%
+\contentsline {section}{\numberline {2.4}Composite Systems}{11}%
+\contentsline {subsection}{\numberline {2.4.1}Entanglement}{13}%
+\contentsline {section}{\numberline {2.5}Realism}{16}%
+\contentsline {subsection}{\numberline {2.5.1}BA Realism}{16}%
+\contentsline {section}{\numberline {2.6}Example: spin-1/2 particles}{18}%
+\contentsline {subsection}{\numberline {2.6.1}Dynamics}{19}%
+\contentsline {subsection}{\numberline {2.6.2}Measurement}{20}%
+\contentsline {chapter}{\numberline {3}Relativistic preliminaries}{23}%
+\contentsline {section}{\numberline {3.1}Basics of special relativity}{23}%
+\contentsline {section}{\numberline {3.2}Restricted Lorentz Group}{24}%
+\contentsline {section}{\numberline {3.3}Thomas-Wigner Rotation}{27}%
+\contentsline {section}{\numberline {3.4}Relativistic Quantum Mechanics}{28}%
+\contentsline {subsection}{\numberline {3.4.1}Unitary representations of the Poincaré group}{29}%
+\contentsline {subsection}{\numberline {3.4.2}Four-momentum eigenstates}{31}%
+\contentsline {subsection}{\numberline {3.4.3}Mass-shell constraint}{31}%
+\contentsline {subsection}{\numberline {3.4.4}Transformation law for momentum and spin states}{32}%
+\contentsline {chapter}{\numberline {4}Boost-induced entanglement and irreality}{35}%
+\contentsline {section}{\numberline {4.1}Transformation of general states}{35}%
+\contentsline {section}{\numberline {4.2}Gaussian state}{38}%
+\contentsline {section}{\numberline {4.3}Superposition of two opposite momentum eigenstates}{38}%
+\contentsline {subsection}{\numberline {4.3.1}Relativity of reality}{41}%
+\contentsline {section}{\numberline {4.4}Mach-Zehnder interferometer}{43}%
+\contentsline {subsection}{\numberline {4.4.1}Quantum resource relativity in the MZI}{44}%
+\contentsline {subsection}{\numberline {4.4.2}Relativity of reality in the MZI}{46}%
+\contentsline {subsection}{\numberline {4.4.3}Paradox concerning spin measurements in the MZI}{48}%
+\contentsline {subsection}{\numberline {4.4.4}General boost scenarios}{49}%
+\contentsline {chapter}{\numberline {5}Conclusions}{51}%
+\contentsline {chapter}{\numberline {A}Momentum discretization made rigorous}{53}%
+\contentsline {chapter}{Bibliography}{57}%

@@ -1,0 +1,165 @@
+\documentclass[11pt,a4paper,notitlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[left=2cm,top=2cm,right=3cm,bottom=3.0cm,nohead]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage[dvips]{color}
+\usepackage{newlfont}
+\usepackage{caption}
+\usepackage{bbm}
+\usepackage{amssymb}
+\usepackage{bbold}
+\usepackage{epstopdf}
+\usepackage[bottom]{footmisc}
+
+\begin{document}
+
+\newcommand{\be}{\begin{eqnarray}}
+\newcommand{\ee}{\end{eqnarray}}
+\newcommand{\ket}[1]{\mbox{$ | #1 \rangle $}}
+\newcommand{\bra}[1]{\mbox{$ \langle #1 | $}}
+\newcommand{\Unit}{\mathbb{1}}
+\newcommand{\Hop}{\mathcal{H}}
+
+O objetivo desse documento é indexar as referências presentes no arquivo referencias.bib, incluindo breves comentários sobre cada trabalho.
+
+\section{Livros}
+
+\cite{sakurai} Livro texto usado como base para entender a teoria de Dirac.
+
+\cite{drell} Outro livro texto que apresenta a teoria de Dirac.
+
+\cite{weinberg} Weinberg: livro texto de teoria quântica de campos.
+
+\cite{halpern_1968} Halpern: livro de mecânica quântica relativística.
+
+\cite{jackson_1975} Jackson: livro de eletrodinâmica, que também inclui uma apresentação de relatividade especial que inclui discussão sobre a dinâmica do spin.
+
+\cite{wigner_1939} Texto seminal de Wigner sobre mecânica quântica relativística. Introduz diversos conceitos de teoria de grupo aplicados às representações unitárias do grupo de Poincaré.
+
+\subsection*{Emaranhamento sob boosts}
+
+\cite{peres2002} Artigo seminal que mostra explicitamente que o emaranhamento entre spin e momentum de uma partícula não é invariante de Lorentz.
+
+\cite{czachor_2005} Resposta/crítica do Czachor ao artigo do Peres.
+
+\cite{czachor_1997} Um dos primeiros artigos de "informção quântica relativística". Estuda-se o experimento de EPR e a desigualdade de Bell considerando partículas com velocidades relativísticas. A definição de um operador de spin relativístico é discutida, e utiliza-se o operador de Pryce (equivalente ao operador de "spin médio" de Foldy-Wouthuysen).
+
+\cite{gingrich_adami_2002} Muito próximo do resultado de Peres et al., nesse trabalho é mostrado que o emaranhamento entre o spin de duas partículas não é invariante sob troca de referenciais. O emaranhamento pode aumentar no novo referencial, contanto que no referencial original haja emranhamento entre os estados de momentum, para ser "convertido" em emaranhamento de spin. Conclui-se que o emaranhamento total da função de onda é invariante.
+
+\cite{alsing_milburn_2002} Constroem um "estado de Bell relativístico", para spin de elétrons e polarização de fótons. Implicitamente tratam o espinor de Dirac como um estado (o operador de criação correspondente, quando atuado no vácuo, resulta num "estado" que é dado pelo espinor de Dirac). Reproduzem extensamente em sua introdução o capítulo 2 do Weinberg, e calculam explicitamente a rotação de Wigner. 
+
+\cite{dunningham_palge_vedral_2009} Também muito próximo do trabalho de Peres et al., aqui é estudado o emaranhamento entre spin e "velocidade" de uma única partícula relativística. Seguem à risca a ideia da rotação de Wigner como uma transformação (rotação) no estado de spin, dependente do momentum. Utilizam o usual operador de rotações de um qubit para representar o efeito de um boost sobre o estado de spin. O ângulo desta rotação é o ângulo da rotação de Wigner, e o eixo é a dreção mutualmente ortogonal à direção do Boost e à direção da velocidade da partícula.
+
+\cite{friis_2010} Investigam o mesmo problema que Gingrich e Adami \cite{gingrich_adami_2002} (ou seja, o emaranhamento entre o spin de duas partículas relativísticas) mas usando o mesmo tipo de "simplificação" feita em \cite{dunningham_palge_vedral_2009}; ou seja: o efeito do boost sobre o estado de spin é simplesmente uma rotação. Tratam também o momentum como um grau de liberdade discreto bidimensional, convertendo a problema para o de emaranhamento entre quatro qubits.
+
+\cite{taillebois_avelar_2013} Tratam o spin relativístico num formalismo mais alinhado com a teoria quântica de campos usual. Reproduzem o processo do Weinberg de determinar as representações unitárias irredutíveis do grupo de Poincaré, explicitando alguns detalhes ofuscados pelo Weinberg. Recuperam um dos resultados de Saldanha e Vedral, mas disputam a interpretação de que uma matriz densidade reduzida de spin é sem significado.
+
+\cite{hegerfeldt_1985} Teorema de Hegerfeldt: garante que partículas relativísticas não podem ser localizadas em uma região finita do espaço. Localização em um instante implica em violação de causalidade em instantes posteriores. Resultado intimamente ligado à questão do operador posição relativístico.
+
+\cite{grobe_2014} \cite{grobe_2014_2}  Revisão e comparação de 7 diferentes propostas para observáveis de spin relativístico. Em \cite{grobe_2014_2} entra-se em detalhes sobre as dificuldades de tratar $\mathbf{\Sigma}/2$ como o observável de spin na teoria de Dirac e sobre as condições que um operador de spin relativístico deve satisfazer.
+
+\cite{foldy_wouthuysen_1950} Utilizam uma transformação canônica no Hamiltoniano de Dirac que desacopla as soluções de energia positiva das negativas. Obtêm por meio disso um dos operadores de spin relativístico mais bem-sucedidos até hoje.
+
+\cite{brukner_2019QRF} Introduzem o conceito de "referencial quântico", e uma transformação que permite trocar entre referenciais que se encontram em uma superposição de velocidades/posições relativas.
+
+\cite{brukner_2019spin} Utilizam a transformação de referenciais introduzida em \cite{brukner_2019QRF} para tratar o spin de uma partícula em movimento. Obtêm um observável de spin que dizem ser equivalente ao spin de Foldy-Wouthuysen
+
+\cite{matsas_2019} Apresentam um novo argumento a favor do emaranhamento entre graus de liberdade internos e o momentum de uma partícula, sob mudanças de referenciais (como em \cite{peres2002}). Utilizam a correspondência entre massa e energia ($E = mc^2$) para atribuir massas diferentes aos diferentes estados energéticos do grau de liberdade interno. Aqui, utilizam boosts de Galileo para mostrar que o efeito se observa mesmo em velocidades não-relativísticas. O boost leva um estado de momentum $\mathbf{p}$ a um de momentum $\mathbf{p} + M\mathbf{v}$, onde a massa $M$ depende do estado do grau de liberdade interno.
+
+\subsection*{Alberto (caixa de Dirac)}
+
+\cite{alberto_1996} Resolvem o problema unidimensional de uma partícula de Dirac confinada em uma caixa. Em vez de utilizarem um potencial infinito como de costume na MQ não-relativística, o sistema é modelado em termos de uma massa infinita, no exterior da caixa. Isso evita problemas associados ao paradoxo de Klein. A condição usual de continuidade de $\psi$ nos limites da caixa deve ser abandonada. A condição que deve ser imposta é que a corrente de probabilidade seja nula nos limites da caixa.
+
+\cite{alberto_2011} Generalizam seu resultado prévio da partícula de Dirac confinada, agora para três dimensões espaciais. As considerações gerais são as mesmas que no caso unidimensional. Deve se impor que a corrente de probabilidade na diração ortogonal à superfície da caixa seja nula nos limites da caixa.
+
+\subsection*{Saldanha}
+
+\cite{saldanha_vedral_2012} Atacam o mesmo problema que Peres et al., mas com um formalismo que enfatiza o processo de medição do spin através do acomplamento com um campo magnético. A proposta consiste de transformar para o referencial da partícula, e atribuir o estado de spin com base no campo magnético enxergado pela partícula. Utiliza-se essa ideia para o processo de preparação e o de medição, para atribuir um vetor de Bloch para o estado de spin que é paralelo não ao campo magnético visto pelo laboratório, mas pelo campo visto pela partícula. Um problema do formalismo: não consideram o efeito do campo eletromagnético sobre o momentum da partícula (aceleração devido à carga elétrica), apenas devido ao spin. Talvez seja mais apropriado para neutrons?
+
+\cite{saldanha_vedral_2013} Constroem um paradoxo em que Bob obtém duas densidades de probabilidade diferentes para diferentes bases utilizadas por Alice numa medição de spin. Isso possibilita que Alice envie informação (sua base de escolha) instantaneamente. Oa autores argumentam que o erro teórico que leva ao paradoxo é uma aplicação linear da rotação de Wigner (a rotação atua independentemente em cada componente do momento que se encontra em superposição).
+
+
+\subsection*{Bernardini}
+
+\cite{bernardini_2014} Aqui é inicialmente proposto o tratamento de partículas de Dirac em termos de dois qubits. O espaço de Hilbert de dimensão 4 a que as partículas de Dirac pertencem é entendido como o produto de dois epaços de dimensão 2; i.e., as partículas de Dirac carregam, efetivamente, dois qubits. Neste primeiro trabalho, esse formalismo é utilizado para estudar gases de Fermi.
+
+\cite{bittencourt_2016} Listam todas as classes de potenciais permitidos na equação de Dirac (possivelmente justificando o modelo não-ortodóxo de \cite{alberto_1996}, em que uma massa infinita é utilizada no lugar de um potencial infinito). Estudam o emaranhamento entre os dois graus de libertade internos de uma partícula de Dirac: o spin (helicidade) e a paridade intrinseca.
+
+\cite{bittencourt_2018} Estudam emaranhamento multipartido num sistema de duas partículas de Dirac, seguindo o framework previamente desenvolvido (partículas de Dirac carregam um qubit de spin e um qubit de paridade).
+
+\section{Descoerência e emaranhamento}
+
+\cite{schlosshauer_2010} Livro sobre descoerência, i.e., o fenômeno quântico que descreve a emergência do mundo "clássico" através do emaranhamento de sistemas físicos com o ambiente.
+
+\cite{wootters_zurek_1979} Primeiro artigo a tratar o experimento da dupla-fenda em termos de emaranhamento.
+
+\section{Elementos de realidade}
+
+\cite{epr_1935} EPR 1935
+
+\cite{bell_1964} Bell 1964
+
+\cite{bilobran_angelo_2015} Bilobran \& Angelo (irrealidade) 2015
+
+\cite{gomes_angelo_2018} Gomes \& Angelo (não-localidade baseada em realismo) 2018
+
+\cite{dieguez_angelo_2018} Dieguez \& Angelo (complementariedade entre informação e realismo) 2018
+
+\cite{redhead_1989} \cite{vaidman_1996} Redhead, 1989; Vaidman, 1996; propostas alternativas para a definição  de elementos de realidade, posteriores a EPR e anteriores a BA.
+
+\section{Rotação de Wigner}
+
+\cite{visser_2011} Análise elementar da rotação de Wigner, incluindo derivações do ângulo $\Omega$.
+
+\section{Recent additions:}
+
+\cite{peres_2004} Review on relativistic quantum information
+
+\cite{horodecki_2009} v Review on entanglement
+
+\cite{chitambar_2019} Review on resource theories
+
+\cite{gisin_2002} Review on quantum cryptography (entanglement application)
+
+\cite{pironio_2010} Random number generation (entanglement application)
+
+\cite{toth_2014} Quantum metrology (entanglement application)
+
+\cite{marvian_2016} Quantum Coherence (together with \cite{baumgratz_2014})
+
+\cite{brunner_2014} Review on Bell Nonlocality
+
+\cite{li_du_2003} Relativistic entanglement between two particles
+
+\cite{lee_young_2004} v "Quantum entanglement nder Lorentz boost" - define a relativistic spin observable and study Bell inequalities. "maximal violation of the Bell's inequality can be achieved by properly adjusting the directions of the spin measurement".
+
+\cite{caban_2005} v Propose a Lorentz covariant reduced spin density matrix. Use it to analyze the EPRB experiment.
+
+\cite{jordan_2007} v Look at Lorentz transformations which entangle spin and momentum of two spin-1/2 particles.
+
+\cite{chakrabarti_2009} v Look at entanglement of two spin-1/2 particles, also considering the dynamical effects of magnetic fields.
+
+\cite{choi_2011} v Look at spin entanglement between two spin-1/ particles, using the Dirac formalism.
+
+\cite{palge_dunningham_2015} v Werner-state (two particle) under Lorentz boost.
+
+\cite{palge_2018} v Look at two particle entanglement for continuous product momenta.
+
+\cite{fan_li_2018} v Look at entanglement between two scattering fermions. The total entanglement (considering all degrees of freedom) is invariant, but spin-spin entanglement changes with the boost.
+
+\cite{czachor_1997} Czachor's 1997 look at relativistic Bell inequality and his reply to PST \cite{czachor_2005} haven't been cited yet. Also, PST's reply \cite{peres_2005}.
+
+\cite{bittencourt_2020} \cite{bernardini_bittencourt_2020} v Single particle entanglement, using the Dirac formalism, considering a parity degree of freedom.
+
+\cite{friis_2012} \cite{alsing_2012} Entanglement on a gravitational context (curved space-time).
+
+
+
+
+\bibliographystyle{unsrt} 
+\bibliography{referencias}
+
+\end{document}

@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper,notitlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[left=2cm,top=2cm,right=3cm,bottom=3.0cm,nohead]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage[dvips]{color}
+\usepackage{newlfont}
+\usepackage{caption}
+\usepackage{bbm}
+\usepackage{amssymb}
+\usepackage{bbold}
+\usepackage{epstopdf}
+\usepackage[bottom]{footmisc}
+
+\begin{document}
+
+\newcommand{\be}{\begin{eqnarray}}
+\newcommand{\ee}{\end{eqnarray}}
+\newcommand{\ket}[1]{\mbox{$ | #1 \rangle $}}
+\newcommand{\bra}[1]{\mbox{$ \langle #1 | $}}
+\newcommand{\Unit}{\mathbb{1}}
+\newcommand{\Hop}{\mathcal{H}}
+
+
+\section{Introdução}
+
+Estou estudando emaranhamento relativístico. Basicamente, o emaranhamento entre graus de liberdade pertencentes a uma única partícula (spin e momentum) não é invariante sob transformações de Lorentz \cite{peres2002}. Consequentemente, sistemas de duas ou mais partículas também apresentam mudanças não-triviais no emaranhamento (entre diferentes partições dos seus graus de liberdade) quando uma mudança de referenciais é considerada \cite{gingrich_adami_2002}.
+
+A razão desse comportamento se deve ao fato de que, no geral, dois boosts de Lorentz não equivalem a um único boost. Se os dois boosts forem não-colineares, a sua composição resulta numa transformação que envolve um boost seguido de uma rotação. Essa rotação é chamada de rotação de Thomas-Wigner, e é um efeito bem conhecido na literatura da relatividade especial.
+
+Para entender como as rotações de Wigner são responsáveis pelo emaranhamento entre spin e momentum sob uma transformação de Lorentz, considere o seguinte exemplo.
+
+- O estado de qualquer partíula em movimento pode ser obtido através de seu estado de repouso (i.e. o estado da partícula em um referencial que a vê em repouso) pela aplicação de um boost de Lorentz correspondente àquela velocidade. Se mudarmos para um outro referencial, que se move em uma direção não-colinear ao momentum da partícula, então, em relação ao referencial de repouso, houve dois boosts não-colineares, portanto esses dois referenciais estão conectados por uma rotação de Wigner. A velocidade do "referencial intermediário" é justamente a velocidade original da parícula, e como o ângulo da rotação de Wigner depende dessa velocidade, uma superposição de momenta resulta em uma rotação diferente para cada valor do momentum presente na superposição.
+
+- Um referencial $S_1$ vê uma partícula com momentum $p$. Em relação ao referencial de repouso $S_0$ da partícula, esse estado pode ser obtido através da aplicação de um Boost de Lorentz correspondente ao momentum $p$.
+Considerando agora um referencial $S_2$, que se move em relação a $S_1$ numa direção não-colinear a $p$. Em relação a $S_0$, o estado descrito por $S_2$ é obtido pela aplicação de dois boosts não-colineares, e portanto esses dois referenciais ($S_2$ e $S_0$) são conectados por uma rotação de Wigner. O ângulo da rotação depende da velocidade (momentum) do "referencial intermediário", que nesse caso é a velocidade de $S_1$ em relação a $S_0$ (correspondente ao momentum $p$). Com isso, se $S_1$ originalmente vê a partícula numa superposição de momenta (e.g. uma gaussiana), cada valor do momentum resulta em uma rotação diferente. Tendo em vista, por fim, que o spin é geometricamente bem-definido no referencial de repouso $S_0$, a transformação $S_1 \rightarrow S_2$ gera uma "rotação coerente" do estado de spin, que depende da distribuição de momenta vista por $S_1$.
+
+(JUSTIFICAR: "o spin é  geometricamente bem-definido no referencial de repouso")
+
+
+O fato dos operadores $\vec{\Sigma} \cdot \hat{n}$ não comutarem com o Hamiltoniano livre de Dirac faz com que não seja possível definir um estado livre (i.e. uma onda plana) com spin bem definido na direção $\hat{n}$ \cite{sakurai}.
+
+
+%--------------------------
+\bibliographystyle{abbrv} 
+\bibliography{referencias}
+
+\end{document}
